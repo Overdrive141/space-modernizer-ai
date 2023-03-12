@@ -126,13 +126,12 @@ const Home: NextPage = () => {
       {/* <Header photo={session?.user?.image || undefined} /> */}
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-4 sm:mb-0 mb-8">
         <a
-          href="https://twitter.com/nutlope/status/1633529333565251595"
+          href="https://twitter.com/FarhanSoftware"
           target="_blank"
           rel="noreferrer"
           className="border border-gray-700 rounded-2xl py-2 px-4 text-gray-400 text-sm my-6 duration-300 ease-in-out hover:text-gray-300 transition"
         >
-          <span className="font-semibold">728,000 rooms</span> generated and
-          counting
+          <span className="font-semibold">Generating New Rooms Everyday</span>
         </a>
         <h1 className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-normal text-slate-100 sm:text-6xl mb-5">
           Generate your <span className="text-red-600">dream</span> room
