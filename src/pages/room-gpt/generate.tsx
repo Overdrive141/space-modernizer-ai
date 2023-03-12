@@ -154,8 +154,8 @@ const Home: NextPage = () => {
           <motion.div className="flex justify-between items-center w-full flex-col mt-4">
             {restoredImage && (
               <div>
-                Here's your remodeled <b>{currentRoom.toLowerCase()}</b> in the{" "}
-                <b>{currentType.toLowerCase()}</b> theme!{" "}
+                Here&apos;s your remodeled <b>{currentRoom.toLowerCase()}</b> in
+                the <b>{currentType.toLowerCase()}</b> theme!{" "}
               </div>
             )}
             <div
