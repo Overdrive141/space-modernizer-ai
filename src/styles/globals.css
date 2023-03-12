@@ -1,9 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 400px) {
+  .background-gradient::before {
+    background: radial-gradient(
+      20% 50% at 50% 50%,
+      rgba(247, 121, 71, 0.376) 0%,
+      rgba(143, 123, 26, 0) 50%
+    );
+    z-index: -10;
+    content: "";
+    position: absolute;
+    inset: 0px;
+    transform: scale(1);
+    pointer-events: none;
+  }
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
